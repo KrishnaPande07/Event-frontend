@@ -1,6 +1,5 @@
-package net.jaguides.springbootbackend;
-import net.jaguides.springbootbackend.repository.EventRepository;
-import net.jaguides.springbootbackend.service.EventService;
+package ripplehire;
+import ripplehire.repository.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

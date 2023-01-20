@@ -1,13 +1,12 @@
-package net.jaguides.springbootbackend.service;
+package ripplehire.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import net.jaguides.springbootbackend.model.Event;
-import net.jaguides.springbootbackend.repository.EventRepository;
+import ripplehire.model.Event;
+import ripplehire.repository.EventRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
+
 @Service
 public class EventService {
 

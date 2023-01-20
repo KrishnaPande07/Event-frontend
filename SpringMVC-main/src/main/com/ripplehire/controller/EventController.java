@@ -1,11 +1,7 @@
-package net.jaguides.springbootbackend.controller;
-import net.jaguides.springbootbackend.exception.ResourceNotFoundException;
-import net.jaguides.springbootbackend.model.Event;
-import net.jaguides.springbootbackend.repository.EventRepository;
-import net.jaguides.springbootbackend.service.EventService;
+package ripplehire.controller;
+import ripplehire.model.Event;
+import ripplehire.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
