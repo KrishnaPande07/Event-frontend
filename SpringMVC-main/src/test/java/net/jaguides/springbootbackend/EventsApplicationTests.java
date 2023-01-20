@@ -1,10 +1,10 @@
-package com.example.guides;
+package net.jaguides.springbootbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GuidesApplicationTests {
+class EventsApplicationTests {
 
 	@Test
 	void contextLoads() {
